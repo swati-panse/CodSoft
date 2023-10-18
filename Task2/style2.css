@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(42, 41, 41);
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    
+    
+}
+.left{
+    font-size: 25px;
+    text-transform:uppercase;
+    transition: 0.6s;
+
+}
+.left::after{
+    animation: alternate;
+}
+span{
+    color: rgb(237, 24, 24);
+}
+
+.nav a{
+    color: rgb(237, 234, 233);
+     font-size: 20px;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+}
+    
+.nav ul li{
+    list-style-type: none;
+    margin: 0 25px;
+}
+
+ ul li:first-child{
+  background-color: rgb(233, 65, 65);
+  color:white;
+}
+ .right ul li  :hover{
+    background-color: brown;
+    padding: 15px;
+}
+.right1{
+    margin-left: 150px;
+    margin-top: 200px;
+    font-size: 20px;
+}
+.right1 h4{
+    margin-top: 10px;
+    font-size: 30px;
+}
+ p{
+    margin-top: 10px;
+ }
+.btn{
+    background-color: brown;
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+ img{
+    float: right;
+    width: 50vh;
+    height:50vh;
+    margin-right:400px;
+    border-radius:450px;
+}
+.btn1 a{
+     
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
